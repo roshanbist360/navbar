@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+body{
+   color: #444;
+   background: #fff;
+   font-weight: 300;
+}
+
+:root{
+     font-size: 16px;
+
+   --primary-color:#1273eb;
+   --primary-dark-color:#135bb3;
+   --primary-light-color:#97c5fd;
+   --primary-light2-color:#ecf5ff;
+
+   --dark-color: #212529;
+
+   --primary-font:'Nunito', sans-serif;
+}
+/* =================== Start of Default css or Global css for ll parts of website =================
+================================================================================================= */
+input:focus{
+   box-shadow: none!important;
+   border: 1px solid var(--primary-color)!important;
+}
+.padding-top-bottom{
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+.solid-head-underline{
+   width: 10%;
+   height: 1px;
+   background: var(--secondry-color);
+   margin-top: 0px;
+}
+.dispay-vh-center{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.dispay-h-center{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.dispay-v-center{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.tite-description-text-left-right-padding{
+   padding-left: 15%;
+   padding-right: 15%;
+}
+.my-button{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
+}
+.my-button button{
+   background: var(--primary-color);
+   color: #fff;
+   font-family: var(--primary-font);
+   padding: 6px 18px;
+   border-radius: 4px;
+   border-style: none;
+}
+.my-button button:hover{
+   background: var(--primary-dark-color);
+}
+.form-select:focus{
+   outline: 1px solid var(--primary-color);
+   border-style: none;
+   box-shadow: none;
+}
+.form-border-focus:focus{
+   outline: 1px solid var(--primary-color);
+   border-style: none;
+   box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================ Start of media queries for resonsiveness ==========
+========================================================================= */
+@media screen and (max-width: 992px) {
+
+}
+
+   
